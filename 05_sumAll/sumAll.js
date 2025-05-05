@@ -1,4 +1,10 @@
-const sumAll = function() {
+const sumAll = function(firstInteger, secondInteger) {
+
+    for ( i = firstInteger; i < secondInteger; i++ ) {
+        sum += i;
+    }
+
+    return sum;
 
 };
 
