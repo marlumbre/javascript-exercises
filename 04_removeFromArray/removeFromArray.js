@@ -5,6 +5,7 @@ const removeFromArray = function(givenArray, toRemove) {
 
         return givenArray;
     }
+
 };
 
 // Do not edit below this line
