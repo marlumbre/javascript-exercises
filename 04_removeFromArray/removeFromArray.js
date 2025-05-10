@@ -1,11 +1,6 @@
-const removeFromArray = function(givenArray, toRemove) {
-    while(true) {
-        let indexToRemove = givenArray.indexOf(toRemove);
-        givenArray.splice(indexToRemove, 1);
+const removeFromArray = function(givenArray, ...toRemove) {
 
-        return givenArray;
-    }
-
+    return givenArray.filter(x => !toRemove.includes(x));
 };
 
 // Do not edit below this line
